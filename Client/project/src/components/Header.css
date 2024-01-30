@@ -1,0 +1,19 @@
+.global-header {
+    width: 100%;
+    height: auto;
+    background-color: #be0403;
+    
+}
+
+.global-header img {
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.global-header {
+    padding-top: 38px
+}
+
+.container-fluid{
+    background-color: #be0403;
+}

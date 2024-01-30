@@ -1,0 +1,74 @@
+.nav-pills .nav-link {
+    min-width: 320px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #353535;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+ 
+  .nav-pills .nav-link:hover {
+    background-color:rgb(240, 191, 76); 
+  }
+  
+  /* Styles for the individual tabs */
+  .TabContent {
+    padding: 20px;
+  }
+  
+  /* SocialMediaTab.css */
+
+  .social-media-buttons {
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    color: #007bff; /* Change this color to match your company color */
+    font-size: 21px;
+    align-items: center;  
+  }
+
+  .contact-column h5 {
+    color: red;
+    font-size: 1.8rem; /* Adjust the font size as needed */
+  }
+
+  .social-media-buttons span {
+    margin-top: 5px;
+  }
+
+  .social-media-buttons a:hover {
+    color: rgb(240, 191, 76); /* Change this color to match your company hover color */
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+  
+  .contact-column {
+    flex: 1;
+  }
+
+  .follow-us {
+    margin-top: 20px;
+    padding-left: 1rem;
+  }
+
+  .follow-us h5 {
+    color: red;
+    font-size: 1.8rem;
+  }
+   
+  .social-media-buttons a:hover {
+    color: #0056b3; /* Change this color to match your company hover color */
+  }
+  
+
+ 
+  .leftmargin{
+    padding-left: 2rem;
+  }
