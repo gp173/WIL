@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Navbar from "./Navbar";
+import ImageSlider from "./ImagesSlider";
 
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./Home.css";
@@ -111,6 +112,7 @@ const Home = () => {
           </div>
         </Tab>
       </Tabs>
+      <ImageSlider></ImageSlider>
     </div>
   );
 };
