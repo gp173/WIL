@@ -53,6 +53,7 @@ import ES from "./pages/Students/ES";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Home from "./components/Home";
+import ImageSlider from "./components/ImagesSlider";
 
 
 
@@ -81,7 +82,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route index element={<Home />} />
+          <Route index element={<><Home /><ImageSlider/></>} />
           <Route path="/form" element={<ProjectForm onSubmit={submitForm} />} />
           <Route path="/contact-us" element={<ContactUs />} />
 

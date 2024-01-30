@@ -7,16 +7,24 @@ import ImageSlider from "./ImagesSlider";
 
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  let navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("");
+
 
   return (
     <div className="home-container">
       <Tabs
         id="uncontrolled-tab-example"
         activeKey={activeTab}
-        onSelect={(tab) => setActiveTab(tab)}
+        onSelect={(tab) => {
+  
+          if(activeTab === "contact-us"){
+            navigate("/contact-us")
+          }
+          setActiveTab(tab)}}
         className="mb-3"
       >
         <Tab eventKey="general" title="General">
@@ -33,10 +41,9 @@ const Home = () => {
           <Navbar activeTab={activeTab} />
           {/* Add content for the "Students" tab here */}
         </Tab>
-
-        <Tab eventKey="contact-us" title="Contact Us" className="ml-auto">
-          <div  className="contact-info">
-            <div className="contact-column">
+        <Tab eventKey="contact-us" title="Contact Us" className="ml-auto" >
+          {/* <div  className="contact-info">
+            <div className="contact-column">  
               <h5>Phone</h5>
               <p>
                 General Enquiries: 0800 WAIKATO{" "}
@@ -72,7 +79,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-
+          
           <div className="follow-us">
             <h5> Follow Us</h5>
             <div className="social-media-buttons">
@@ -109,10 +116,10 @@ const Home = () => {
                 <span>Twitter</span>
               </a>
             </div>
-          </div>
+          </div> */}
         </Tab>
       </Tabs>
-      <ImageSlider></ImageSlider>
+ 
     </div>
   );
 };
