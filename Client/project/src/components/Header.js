@@ -42,7 +42,7 @@ import "./Header.css";
 function Header() {
   return (
     <>
-      <nav className=" globar-header navbar navbar-expand-lg">
+      <nav className="global-header navbar navbar-expand-lg">
         {/* <nav className="global-header"> */}
         <div className="container-fluid">
           <a className="navbar-brand" href="/">

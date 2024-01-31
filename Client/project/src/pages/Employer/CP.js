@@ -4,7 +4,7 @@ const CP = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h3 className="eheader">Company Partners</h3>
         </div>

@@ -4,7 +4,7 @@ const PE = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h3 className="eheader">Project Examples</h3>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 
 const GSAP = () => {
@@ -6,7 +7,7 @@ const GSAP = () => {
       <Home />
       <div style={{ margin: "1rem" }}>
         <div>
-          <h2 className="gheader">Submit a project</h2>
+          <h2 className="gheader">Submit a Project </h2>
         </div>
 
         <div>
@@ -16,6 +17,11 @@ const GSAP = () => {
           contributions. Share your project with us, and let's celebrate
           innovation together.
         </div>
+
+        <div style={{ marginTop: "1rem" }}>
+          
+        </div>
+        <Link to="/form">Please click here to submit a project</Link>
       </div>
     </>
   );

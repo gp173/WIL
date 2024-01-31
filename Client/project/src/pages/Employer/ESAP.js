@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 
 const ESAP = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h3 className="eheader">Submit a Project</h3>
         </div>
@@ -16,6 +17,12 @@ const ESAP = () => {
           contributions. Share your project with us, and let's celebrate
           innovation together.
         </div>
+
+        <div style={{ marginTop: "1rem" }}>
+         
+        </div>
+
+        <Link to="/form">Please click here to submit a project</Link>
       </div>
     </>
   );

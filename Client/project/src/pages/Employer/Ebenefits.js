@@ -4,7 +4,7 @@ const EBENEFITS = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h2 className="eheader">Benefits for Organization:</h2>
         </div>

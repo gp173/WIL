@@ -2,18 +2,22 @@
     width: 100%;
     height: auto;
     background-color: #be0403;
-    
+
 }
 
 .global-header img {
-    margin-left: 20px;
+    margin-left: 4rem;
     vertical-align: middle;
 }
 
 .global-header {
-    padding-top: 38px
+    --bs-navbar-padding-y: 0rem;
 }
 
-.container-fluid{
+.container-fluid {
     background-color: #be0403;
+}
+
+.collapse {
+    margin-right: 4rem;
 }

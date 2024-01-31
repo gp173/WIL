@@ -5,6 +5,7 @@ const GWIL = () => {
   return (
     <>
     <Home/>
+    <img src="https://www.waikato.ac.nz/__data/assets/image/0004/483664/adam-jones-web.jpg" alt="" />
      <div style={{ margin: "1rem" }}>
       <div>
         <h3 className="gheader">What is WIL?</h3>
@@ -27,8 +28,8 @@ const GWIL = () => {
         <li>Combines academic studies with practical work experiences</li>
         <li>Varies by institution and field</li>
       </ul>
-
-      <h3 className="gheader">
+    
+        <h3 className="gheader">
       Integration into Program Curricular:
       </h3>
       <ul>
@@ -36,6 +37,16 @@ const GWIL = () => {
         <li>Enables application of theory in real-world settings</li>
         <li>Established learning objectives guide the experience</li>
       </ul>
+
+      <iframe
+      width="853"
+      height="480"
+      src={`https://www.youtube.com/embed/rcjjFtwDTv8?si=yRuSpWp--pfAHBxT`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
 
       <h3 className="gheader">
       Assessment and Feedback:
