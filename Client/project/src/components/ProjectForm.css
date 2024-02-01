@@ -2,14 +2,14 @@
 #pf-container {
   display: flex;
   justify-content: center;
-
+  padding: 2rem 0 3rem 0;
 }
 
 #pf-form {
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 3rem;
   margin-top: 2rem;
   background-color: transparent;
 
@@ -39,7 +39,7 @@ button {
 }
 
 textarea {
-  height: 2rem;
+  height: 3rem;
   width: 100%;
 }
 

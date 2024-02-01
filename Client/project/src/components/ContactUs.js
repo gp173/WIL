@@ -6,10 +6,10 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div className="page-div">
+    <div>
     <Home />
     {/* Add your contact us page content here */}
-    <div  className="contact-info">
+    <div  className="contact-info page-div">
           <div className="contact-column">
             <h5>Phone</h5>
             <p>
@@ -47,7 +47,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="follow-us">
+        <div className="follow-us page-div">
           <h5> Follow Us</h5>
           <div className="social-media-buttons">
             <a

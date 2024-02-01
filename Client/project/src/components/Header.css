@@ -27,3 +27,19 @@
     --bs-navbar-padding-y: 0rem !important;
     background-color: #be0403;
 }
+
+.search-icon {
+    height: 3rem;
+    width: auto;
+    color: white;
+    position: relative;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.search-button {
+    height: 3rem;
+    width: 0;
+    background-color: transparent;
+}
+

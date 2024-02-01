@@ -39,7 +39,7 @@
 
 import "./Header.css";
 
-function Header() {
+function Header(props) {
   return (
     <>
       <nav className="global-header navbar navbar-expand-lg">
@@ -80,9 +80,29 @@ function Header() {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
-                Search
+              <button className="search-button" type="submit">
+              <svg
+                viewBox="0 0 21 21"
+                fill="currentColor"
+                height="1em"
+                width="1em"
+                {...props}
+                
+                className="search-icon"
+              >
+                <g
+                  fill="none"
+                  fillRule="evenodd"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M13.5 8.5 A5 5 0 0 1 8.5 13.5 A5 5 0 0 1 3.5 8.5 A5 5 0 0 1 13.5 8.5 z" />
+                  <path d="M17.571 17.5L12 12" />
+                </g>
+              </svg>
               </button>
+              
             </form>
           </div>
         </div>
