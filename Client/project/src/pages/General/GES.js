@@ -4,7 +4,7 @@ const GES = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h2 className="gheader">Example Stories</h2>
         </div>

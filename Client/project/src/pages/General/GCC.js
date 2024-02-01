@@ -4,7 +4,7 @@ const GCC = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h2 className="gheader">Company Collaboration</h2>
         </div>

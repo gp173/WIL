@@ -5,7 +5,7 @@ const GSAP = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h2 className="gheader">Submit a Project </h2>
         </div>

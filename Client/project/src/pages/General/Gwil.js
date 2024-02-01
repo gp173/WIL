@@ -6,7 +6,7 @@ const GWIL = () => {
     <>
     <Home/>
     <img src="https://www.waikato.ac.nz/__data/assets/image/0004/483664/adam-jones-web.jpg" alt="" />
-     <div style={{ margin: "1rem" }}>
+    <div className="page-div">
       <div>
         <h3 className="gheader">What is WIL?</h3>
       </div>

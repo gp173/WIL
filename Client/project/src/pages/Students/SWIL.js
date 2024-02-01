@@ -4,7 +4,7 @@ const SWIL = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h3 className="sheader">What is WIL?</h3>
         </div>

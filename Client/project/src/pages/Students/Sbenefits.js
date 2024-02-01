@@ -4,7 +4,7 @@ const SBENEFITS = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h2 className="sheader">Benefits for Students:</h2>
           Work Integrated Learning (WIL) offers several benefits for students, enhancing their educational experience and preparing them for success in the workforce. Some of the key benefits include:

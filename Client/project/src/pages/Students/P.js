@@ -4,7 +4,7 @@ const P = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h2 className="sheader">Papers</h2>
           Discover a wealth of knowledge in our 'Papers' collection. Explore research, insights, and innovations across diverse subjects. Stay informed and elevate your understanding with our curated selection.

@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-  <div>
+    <div className="page-div">
     <Home />
     {/* Add your contact us page content here */}
     <div  className="contact-info">

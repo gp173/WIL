@@ -1,29 +1,25 @@
 
 import React, { useState } from "react";
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
 import ImageSlider from "./ImagesSlider";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   let navigate = useNavigate();
-  const [activeTab, setActiveTab] = useState("");
-
+  
   const location = useLocation();
   const isHomePage = location.pathname === '';
 
 
   return (
     <div className="home-container">
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className=" bg-body-tertiary">
       <Container className="custom-navbar">
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -50,7 +46,10 @@ const Home = () => {
               <NavDropdown.Item href="/p"> Papers </NavDropdown.Item>
               <NavDropdown.Item href="/es"> Example Stories </NavDropdown.Item>
             </NavDropdown>
+
             <Nav.Link href="/contact-us" className="contact-margin">Contact Us</Nav.Link>
+
+
           </Nav>
         </Navbar.Collapse>
       </Container>

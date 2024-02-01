@@ -72,10 +72,24 @@
 }
 
 .custom-navbar {
-  margin-left: 4rem !important;
+  margin-left: 0 !important;
+  padding-left: 4rem !important;
 }
 
 .contact-margin {
   position: absolute;
   right: 5rem;
+}
+
+.custom-navbar {
+  background-color: #d40100;
+  max-width: 100% !important;
+}
+
+.navbar {
+  background-color: #be0403;
+}
+
+.nav-link {
+  color: #fff !important;
 }

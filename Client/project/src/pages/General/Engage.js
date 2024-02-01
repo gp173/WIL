@@ -5,7 +5,7 @@ const Engage = () => {
   return (
     <>
       <Home />
-      <div style={{ margin: "1rem" }}>
+      <div className="page-div">
         <div>
           <h2 className="gheader">Engage with us</h2>
         </div>

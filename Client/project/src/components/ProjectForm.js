@@ -102,7 +102,8 @@ const ProjectForm = () => {
 
         <label class="pf-label">
           Title:
-          <textarea
+          <input
+            type="text"
             name="Title"
             value={formData.Title}
             onChange={handleChange}
@@ -113,6 +114,7 @@ const ProjectForm = () => {
           Outline:
           <textarea
             name="Outline"
+            rows="4"
             value={formData.Outline}
             onChange={handleChange}
           />

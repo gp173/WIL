@@ -20,4 +20,10 @@
 
 .collapse {
     margin-right: 4rem;
+
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0rem !important;
+    background-color: #be0403;
 }
