@@ -24,7 +24,7 @@ const Home = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
 
-          <NavDropdown title="General" id="basic-nav-dropdown">
+          <NavDropdown title="General " id="basic-nav-dropdown">
               <NavDropdown.Item href="/gwil">What is WIL</NavDropdown.Item>
               <NavDropdown.Item href="/benefits">Benefits</NavDropdown.Item>
               <NavDropdown.Item href="/engage">Engage with Us</NavDropdown.Item>
@@ -33,14 +33,15 @@ const Home = () => {
               <NavDropdown.Item href="/gsap">Submit a Project</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Employers" id="basic-nav-dropdown">
+            <NavDropdown title="Employers " id="basic-nav-dropdown">
               <NavDropdown.Item href="/ewil"> What is WIL </NavDropdown.Item>
               <NavDropdown.Item href="/ebenefits">Benefits for Employer </NavDropdown.Item>
               <NavDropdown.Item href="/pe">Project Example </NavDropdown.Item>
               <NavDropdown.Item href="/esap">Submit a Project </NavDropdown.Item>
               <NavDropdown.Item href="/cp"> Companies Partners </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Students" id="basic-nav-dropdown">
+
+            <NavDropdown title="Students " id="basic-nav-dropdown">
               <NavDropdown.Item href="/swil"> What is WIL </NavDropdown.Item>
               <NavDropdown.Item href="/sbenefits"> Benefits for students </NavDropdown.Item>
               <NavDropdown.Item href="/p"> Papers </NavDropdown.Item>
