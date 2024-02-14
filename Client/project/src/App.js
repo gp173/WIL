@@ -48,6 +48,7 @@ import CP from "./pages/Employer/CP";
 import SWIL from "./pages/Students/SWIL";
 import SBENEFITS from "./pages/Students/Sbenefits";
 import P from "./pages/Students/P";
+import SP from "./pages/Students/SP";
 import ES from "./pages/Students/ES";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -102,6 +103,7 @@ function App() {
           <Route path="swil" element={<SWIL />} />
           <Route path="sbenefits" element={<SBENEFITS />} />
           <Route path="p" element={<P />} />
+          <Route path="sp" element={<SP />} />
           <Route path="es" element={<ES />} />
 
           

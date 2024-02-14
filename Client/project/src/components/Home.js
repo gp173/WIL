@@ -30,6 +30,7 @@ const Home = () => {
               <NavDropdown.Item href="/engage">Engage with Us</NavDropdown.Item>
               <NavDropdown.Item href="/ges">Example Stories</NavDropdown.Item>
               <NavDropdown.Item href="/gcc">Companies Collaboration</NavDropdown.Item>
+              <NavDropdown.Item href="/sp"> Project </NavDropdown.Item>
               <NavDropdown.Item href="/gsap">Submit a Project</NavDropdown.Item>
             </NavDropdown>
 
@@ -45,6 +46,7 @@ const Home = () => {
               <NavDropdown.Item href="/swil"> What is WIL </NavDropdown.Item>
               <NavDropdown.Item href="/sbenefits"> Benefits for students </NavDropdown.Item>
               <NavDropdown.Item href="/p"> Papers </NavDropdown.Item>
+              <NavDropdown.Item href="/sp"> Project </NavDropdown.Item>
               <NavDropdown.Item href="/es"> Example Stories </NavDropdown.Item>
             </NavDropdown>
 

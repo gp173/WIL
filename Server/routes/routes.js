@@ -3,8 +3,27 @@ const express = require('express');
 const router = express.Router();
 const db = require('../controllers/dbController');
 
+
+
+router.get('/getAllProjects', (req, res) => {
+  // Retrieve all projects from the database
+  const sql = 'SELECT * FROM `project`';
+
+  db.query(sql, (err, results) => {
+    console.log(results);
+    if (err) {
+      console.error('MySQL retrieval error:', err);
+      res.status(500).send('Error retrieving data from the database');
+    } else {
+      console.log('Projects retrieved successfully');
+      res.status(200).json(results);
+    }
+  });
+});
+
 router.post('/submitForm', (req, res) => {
   const formData = req.body;
+  console.log(formData);
 
   // Insert form data into the database
   const sql = 'INSERT INTO project SET ?';
@@ -19,5 +38,6 @@ router.post('/submitForm', (req, res) => {
     }
   });
 });
+
 
 module.exports = router;
